@@ -16,39 +16,42 @@ console.log(age);
 // tasks
 
 var plus = +prompt('9 + 7 = ?')
+ var answerplus = (9 + 7)
 
 alert(plus)
 
-console.log(' 9 + 7 = 16 ' + ' Your answer is ' +  plus);
+console.log(' Right answer ' + answerplus + ' Your answer is ' +  plus);
 
 
 
 var minus = +prompt('9 - 7 = ?')
+ var answerminus = ( 9 - 7 )
 
 alert(minus)
 
-console.log(' 9 - 7 = 2 ' + ' Your answer is ' +  minus);
+console.log(' Right answer ' + answerminus + ' Your answer is ' +  minus);
 
 
 var multiply = +prompt('9 * 7 = ?')
+var answermultiply = (9 * 7)
 
 alert(multiply)
 
-console.log(' 9 * 7 = 63 ' + ' Your answer is ' +  multiply);
+console.log(' Right answer ' + answermultiply + ' Your answer is ' +  multiply);
 
 
 var division = +prompt('63 / 9 = ?')
-
+var answerdivision = (63 / 9)
 alert(division)
 
-console.log(' 63 / 9 = 7 ' + ' Your answer is ' +  division);
+console.log(' Right answer ' + answerdivision + ' Your answer is ' +  division);
 
 
 
 var percent = +prompt('9 % 7 = ?')
-
+var answerpercent = (9 % 7)
 alert(percent)
 
-console.log(' 9 % 7 = 2 ' + ' Your answer is ' +  percent);
+console.log(' Right answer ' + answerpercent + ' Your answer is ' +  percent);
 
 alert('Enter the console to see your answers')
